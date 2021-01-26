@@ -1,0 +1,4 @@
+train: datamain/images/train
+val: datamain/images/validation
+nc: 1
+names: ["polyp"]

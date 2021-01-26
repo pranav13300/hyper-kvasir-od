@@ -1,0 +1,9 @@
+--> YOLO v5: https://github.com/ultralytics/yolov5
+
+Model Running Using YOLOv5:
+
+--> python train.py --batch 1 --epochs 25 --data pol.yaml --cfg models/yolov5s.yaml --name plx
+
+Detection using Trained Model:
+
+--> python detect.py --source val --weights best.pt
